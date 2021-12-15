@@ -68,7 +68,7 @@
 
 + *Basic knowledge of Html,CSS and Javascript* 
 + *Git system basics*
-
++ *Angular - basics*
 ---
 
 ### Example of my own code:
@@ -83,10 +83,10 @@
    ```
 ---
 
-### Online courses: 
+### Online courses and Internship: 
 
 + *Skillbox - Frontend-developer course* 
-
++ *Internship in Exzadel company - Front-end developer"*
 ---
 
 ### English Language proficiency: 
