@@ -92,5 +92,3 @@
 ### English Language proficiency: 
 
 - *level B2-C1* 
-- *I have improved a lot my english level while I worked as Financial specialist in Amrerican cruise line.
-   There I socialized with real english people on daily basis which made my english more fluent.*
