@@ -13,7 +13,7 @@
 
 + **Email** : <*amrishka88@gmail.com*> ; 
 
-+ **Status** : *Married* ; 
++ **Status** : *Married* ;
 
 ---
 
