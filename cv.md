@@ -1,11 +1,6 @@
-# Curcullum vitae 
+# AMRILLO AKHMEDOV
 
 ### Personal information: 
-
-
-+ **Name** : *Amrillo* ; 
-
-+ **Family name** : *Akhmedov* ; 
 
 + **Date of birth** : *12.06.1988* ; 
 
@@ -38,7 +33,7 @@
 ---
 
 ### Working background: 
-1. ***New Silk Road Oil and Gas, Tashkent. Period: Currently***
+1. ***"New Silk Road Oil and Gas" company, Tashkent. Period: Currently***
 
     *working as financial specialist*
 
@@ -46,7 +41,7 @@
 
    *working as Accountant specialist* 
    
-2. ***"Carnival Cruise" company,Orlando, Florida.Period:09.2019-05.2020***
+2. ***"Carnival Cruise" company, Orlando, Florida.Period:09.2019-05.2020***
 
    *Worked as Financial specialist* 
 
@@ -54,7 +49,7 @@
 
    *Worked as accountant specialist*
    
-4. ***"Hyundai Engineering" company,Bukhara.Period:09.2016-12.2017.***
+4. ***"Hyundai Engineering" company, Bukhara.Period:09.2016-12.2017.***
 
     *Worked as material controller*
     
@@ -68,7 +63,8 @@
 
 + *Basic knowledge of Html,CSS and Javascript* 
 + *Git system basics*
-+ *Angular - basics*
++ *Angular basics*
+
 ---
 
 ### Example of my own code:
@@ -86,7 +82,8 @@
 ### Online courses and Internship: 
 
 + *Skillbox - Frontend-developer course* 
-+ *Internship in Exzadel company - Front-end developer"*
++ *Internship in Exzadel company - Front-end developer*
+
 ---
 
 ### English Language proficiency: 
