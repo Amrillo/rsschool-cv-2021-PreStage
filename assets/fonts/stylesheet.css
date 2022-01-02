@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Bold.eot');
+    src: local('Piazzolla Bold'), local('Piazzolla-Bold'),
+        url('Piazzolla-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Bold.woff2') format('woff2'),
+        url('Piazzolla-Bold.woff') format('woff'),
+        url('Piazzolla-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Black.eot');
+    src: local('Piazzolla Black'), local('Piazzolla-Black'),
+        url('Piazzolla-Black.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Black.woff2') format('woff2'),
+        url('Piazzolla-Black.woff') format('woff'),
+        url('Piazzolla-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-BlackItalic.eot');
+    src: local('Piazzolla Black Italic'), local('Piazzolla-BlackItalic'),
+        url('Piazzolla-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-BlackItalic.woff2') format('woff2'),
+        url('Piazzolla-BlackItalic.woff') format('woff'),
+        url('Piazzolla-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-ExtraBold.eot');
+    src: local('Piazzolla ExtraBold'), local('Piazzolla-ExtraBold'),
+        url('Piazzolla-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-ExtraBold.woff2') format('woff2'),
+        url('Piazzolla-ExtraBold.woff') format('woff'),
+        url('Piazzolla-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-ExtraLightItalic.eot');
+    src: local('Piazzolla ExtraLight Italic'), local('Piazzolla-ExtraLightItalic'),
+        url('Piazzolla-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-ExtraLightItalic.woff2') format('woff2'),
+        url('Piazzolla-ExtraLightItalic.woff') format('woff'),
+        url('Piazzolla-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-BoldItalic.eot');
+    src: local('Piazzolla Bold Italic'), local('Piazzolla-BoldItalic'),
+        url('Piazzolla-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-BoldItalic.woff2') format('woff2'),
+        url('Piazzolla-BoldItalic.woff') format('woff'),
+        url('Piazzolla-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-LightItalic.eot');
+    src: local('Piazzolla Light Italic'), local('Piazzolla-LightItalic'),
+        url('Piazzolla-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-LightItalic.woff2') format('woff2'),
+        url('Piazzolla-LightItalic.woff') format('woff'),
+        url('Piazzolla-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-MediumItalic.eot');
+    src: local('Piazzolla Medium Italic'), local('Piazzolla-MediumItalic'),
+        url('Piazzolla-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-MediumItalic.woff2') format('woff2'),
+        url('Piazzolla-MediumItalic.woff') format('woff'),
+        url('Piazzolla-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Regular.eot');
+    src: local('Piazzolla Regular'), local('Piazzolla-Regular'),
+        url('Piazzolla-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Regular.woff2') format('woff2'),
+        url('Piazzolla-Regular.woff') format('woff'),
+        url('Piazzolla-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-SemiBold.eot');
+    src: local('Piazzolla SemiBold'), local('Piazzolla-SemiBold'),
+        url('Piazzolla-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-SemiBold.woff2') format('woff2'),
+        url('Piazzolla-SemiBold.woff') format('woff'),
+        url('Piazzolla-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Medium.eot');
+    src: local('Piazzolla Medium'), local('Piazzolla-Medium'),
+        url('Piazzolla-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Medium.woff2') format('woff2'),
+        url('Piazzolla-Medium.woff') format('woff'),
+        url('Piazzolla-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Thin.eot');
+    src: local('Piazzolla Thin'), local('Piazzolla-Thin'),
+        url('Piazzolla-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Thin.woff2') format('woff2'),
+        url('Piazzolla-Thin.woff') format('woff'),
+        url('Piazzolla-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Light.eot');
+    src: local('Piazzolla Light'), local('Piazzolla-Light'),
+        url('Piazzolla-Light.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Light.woff2') format('woff2'),
+        url('Piazzolla-Light.woff') format('woff'),
+        url('Piazzolla-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-ThinItalic.eot');
+    src: local('Piazzolla Thin Italic'), local('Piazzolla-ThinItalic'),
+        url('Piazzolla-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-ThinItalic.woff2') format('woff2'),
+        url('Piazzolla-ThinItalic.woff') format('woff'),
+        url('Piazzolla-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-SemiBoldItalic.eot');
+    src: local('Piazzolla SemiBold Italic'), local('Piazzolla-SemiBoldItalic'),
+        url('Piazzolla-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-SemiBoldItalic.woff2') format('woff2'),
+        url('Piazzolla-SemiBoldItalic.woff') format('woff'),
+        url('Piazzolla-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-Italic.eot');
+    src: local('Piazzolla Italic'), local('Piazzolla-Italic'),
+        url('Piazzolla-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-Italic.woff2') format('woff2'),
+        url('Piazzolla-Italic.woff') format('woff'),
+        url('Piazzolla-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-ExtraLight.eot');
+    src: local('Piazzolla ExtraLight'), local('Piazzolla-ExtraLight'),
+        url('Piazzolla-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-ExtraLight.woff2') format('woff2'),
+        url('Piazzolla-ExtraLight.woff') format('woff'),
+        url('Piazzolla-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('Piazzolla-ExtraBoldItalic.eot');
+    src: local('Piazzolla ExtraBold Italic'), local('Piazzolla-ExtraBoldItalic'),
+        url('Piazzolla-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Piazzolla-ExtraBoldItalic.woff2') format('woff2'),
+        url('Piazzolla-ExtraBoldItalic.woff') format('woff'),
+        url('Piazzolla-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+

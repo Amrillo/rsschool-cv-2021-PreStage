@@ -1,0 +1,335 @@
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-Bold.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src:  url('/rsschool-cv/assets/fonts/Piazzolla-Black.woff2') format('woff2'),
+         url('/rsschool-cv/assets/fonts/Piazzolla-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-BlackItalic.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-BlackItalic.woff') format('woff');
+   font-weight: 900;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-ExtraBold.woff2') format('woff2'),
+       url('/rsschool-cv/assets/fonts/Piazzolla-ExtraBold.woff') format('woff');
+   font-weight: 800;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-MediumItalic.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-MediumItalic.woff') format('woff');
+   font-weight: 500;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-Regular.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src:  url('/rsschool-cv/assets/fonts/Piazzolla-SemiBold.woff2') format('woff2'),
+         url('/rsschool-cv/assets/fonts/Piazzolla-SemiBold.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-Medium.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-Medium.woff') format('woff');  
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-Thin.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-Thin.woff') format('woff');
+   font-weight: 100;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Piazzolla';
+   src: url('/rsschool-cv/assets/fonts/Piazzolla-Light.woff2') format('woff2'),
+        url('/rsschool-cv/assets/fonts/Piazzolla-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'Piazzolla';
+   src:  url('/rsschool-cv/assets/fonts/Piazzolla-ExtraLight.woff2') format('woff2'),
+         url('/rsschool-cv/assets/fonts/Piazzolla-ExtraLight.woff') format('woff');
+   font-weight: 200;
+   font-style: normal;
+}
+html {
+   scroll-behavior: smooth; 
+ }
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+ }
+ a { 
+    text-decoration: none;
+    color: black ;
+ }
+ ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {  
+    font-family: 'Piazzolla', serif;
+    background-color:wheat;
+    padding: 0 50px;
+    line-height: 1.5;
+ }
+
+ h1 {  
+    font-size: 2.1rem;
+    letter-spacing: 0.3rem;
+    font-style: normal;
+    color: #454545;
+ }
+
+ h2 {  
+    text-align: center;
+ }
+
+hr {  
+    height: 10px;
+    background-color:  indigo;
+    margin-bottom: 20px;
+}
+pre code {
+   background-color: #eee;
+   border: 1px solid #999;
+   display: block;
+   padding: 5px;
+   font-size: 1.1rem;
+ }
+
+
+ .container {   
+    margin: 0 auto; 
+    max-width: 1400px;
+    min-height: 100vh;
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr) ;
+    grid-template-rows: 100px 2280px 200px ;
+    background-color: whitesmoke;
+    color: black;
+ }
+
+  /* header */   
+  .header {   
+     grid-column: 1/-1;
+  }
+ .header__list {   
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .header__item {    
+   display: inline-block;
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+.header__item:not(:last-child) { 
+   margin-right: 20px;
+}
+.header-item__link {  
+   padding: 0 20px;
+   line-height: 50px;
+   transition: 0.5s;
+}
+.header-item__link:hover {
+   color: red;
+}
+ 
+/* main */ 
+.main { 
+   grid-column: 5/-1;
+   padding: 20px 50px;
+   font-size: 1.4rem;   
+}
+.mainbox { 
+   display: flex;
+   flex-direction: column;
+   padding-top: 60px;
+   overflow: hidden;
+}
+.mainbox > div { 
+   margin-bottom: 80px;
+}
+.mainbox__exofcode { 
+   margin-bottom: 0;
+}
+ .mainbox__edutitle{ 
+    display: flex; 
+    justify-content: flex-start;
+    height: 15px;
+    padding: 0 20px;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+ .mainbox__aboutme { 
+    max-width: 100%;
+ }
+
+.mainbox__edu-icon {  
+   display: inline-block;
+   margin-right: 10px; 
+}
+.edulist-title { 
+   margin-bottom: 30px;
+}
+.exp-text { 
+   margin-bottom: 30px;
+}
+/* sidebar */  
+.sidebar {  
+  grid-column: 1/5;
+  grid-row: 2 /3;
+  background-color: whitesmoke;
+  font-size: 1.5rem;  
+
+}
+.sidebar-container  {  
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 20px 30px;
+}
+
+.sidebar-container > div { 
+   margin-bottom: 50px;
+}
+.sidebar-container__boxtitle { 
+   display: flex;
+   max-width: 100%;
+   height: 60px;
+   background-color: black;
+   color: cornsilk;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   margin-left: 30px; 
+   border-radius: 20px;
+}
+.sidebar-container__photo { 
+   text-align: center;
+}
+.sidebar-container__photo figure img{ 
+   max-width: 300px;
+   border-radius: 50%;
+   box-shadow: 30px 30px 60px grey;
+   margin-bottom: 10px;
+}
+.sidebar-container__photo figure figcaption {  
+   text-align: center;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   font-style: oblique;
+   font-weight: 300;
+   color:honeydew;
+}
+.sidebar-container__image img { 
+   width: 80px;
+}
+.sidebar-container__contactselem { 
+   margin-bottom: 5px;
+}
+.sidebar-container__contactselem a:hover {
+   color: orange;
+   font-weight: 800;
+
+}
+.sidebar-container__contactselem a span { 
+   display: inline-block;
+   margin-right: 30px;
+}
+.sidebar-container__skillname {  
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+   height: 80px;
+   margin-bottom: 20px;
+}
+.sidebar-container__levelbox { 
+   width: 150px;
+   height: 20px;
+   background-color: black;
+   border-radius: 15px;
+}
+.sidebar-container__level { 
+   height: 20px;
+   border-radius: 15px;
+   background-color: blue;
+}
+.l1 { 
+   width: 120px;
+}
+.l2 { 
+   width: 110px;
+}
+.l3 { 
+   width: 60px;
+}
+.l4 { 
+   width: 75px;
+}
+.l5 {
+   width: 50px;
+}
+.sidebar-container__langbox { 
+   display: flex;
+   justify-content: space-between;
+}
+.sidebar-container__qualitybox { 
+   display: flex;
+   justify-content: space-between;
+}
+.qualitybox-col2 { 
+   text-align: right;
+}
+
+ /* footer  */ 
+ .footer {  
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 2rem;
+ }
