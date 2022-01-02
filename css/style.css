@@ -135,6 +135,8 @@ pre code {
    padding: 5px;
    font-size: 1.1rem;
  }
+
+
  .container {   
     margin: 0 auto; 
     max-width: 1400px;
@@ -142,7 +144,7 @@ pre code {
     display: grid; 
     grid-template-columns: repeat(12, 1fr) ;
     grid-template-rows: 100px 2280px 200px ;
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
  }
 
@@ -168,6 +170,10 @@ pre code {
 .header-item__link {  
    padding: 0 20px;
    line-height: 50px;
+   transition: 0.5s;
+}
+.header-item__link:hover {
+   color: red;
 }
  
 /* main */ 
@@ -217,7 +223,7 @@ pre code {
 .sidebar {  
   grid-column: 1/5;
   grid-row: 2 /3;
-  background-color: white;
+  background-color: whitesmoke;
   font-size: 1.5rem;  
 
 }
@@ -265,6 +271,11 @@ pre code {
 }
 .sidebar-container__contactselem { 
    margin-bottom: 5px;
+}
+.sidebar-container__contactselem a:hover {
+   color: orange;
+   font-weight: 800;
+
 }
 .sidebar-container__contactselem a span { 
    display: inline-block;
